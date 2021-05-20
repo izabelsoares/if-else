@@ -1,8 +1,8 @@
 let idade = 18;
 const isHuman = true;
 const mês = "outubro";
-const letraNome = "I";
-const sobrenome = "6";
+const nome = "Izabel";
+const sobrenome ="Soares";
 
 
 if (idade > 18){
@@ -23,13 +23,13 @@ if ((mês == "janeiro") || (mês == "dezembro")) {
     console.log("você não nasceu no mês de janeiro nem dezembro")
 }
 
-if (letraNome == "R") {
+if (nome.substring(0,1) === "R") {
     console.log("A primeira letra no nome é R")
 } else {
     console.log("A primeira letra do nome não é R")
 }
 
-if ((letraNome == "E") || (sobrenome > "6")) {
+if ((nome.substring(0,1) === "E") || (sobrenome.lenght > 6)) {
     console.log("a primeira letra do nome é E ou o sobrenome tem mais de 6 letras")
 }  else {
     console.log("a primeira letra do nome não é E ou o sobrenome tem um número menor ou igual a 6 letras ")
